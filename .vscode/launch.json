@@ -1,0 +1,20 @@
+{/*这个是调试设置文件*/
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+        "name": "Debug", //设置调试器的路径
+        "type": "cppdbg", 
+        "request": "launch",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false, 
+        "cwd": "${fileDirname}", 
+        "environment": [], 
+        "externalConsole": false,
+        "internalConsoleOptions": "neverOpen",
+        "MIMode": "gdb", 
+        "miDebuggerPath": "E:/mingw64/bin/gdb.exe", 
+        "preLaunchTask": "build" 
+    }]
+}

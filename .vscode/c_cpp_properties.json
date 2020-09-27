@@ -1,0 +1,24 @@
+{ /*这里的就是对c/c++插件的属性设置，两个地方比较重要一个是设置头文件检测的位置，一个是设置编译器的位置*/
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [  //设置头文件检测的位置
+                "${workspaceFolder}/**",
+                "E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/",
+                "E:/mingw64/include/",
+                "E:/mingw64/x86_64-w64-mingw32/include/"
+              
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:\\mingw64\\bin\\gcc.exe",//设置编译器的位置
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
